@@ -1,0 +1,115 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+    background: url(../images/bg.jpg);   
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.logo{
+    margin:8px;
+}
+.nav-lists{
+display: flex;
+}
+.nav-list{
+    padding: 14px;
+    margin: 20px;
+    list-style-type: none;
+}
+.nav-list a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-content .main-text1{
+    font-size: 60px;
+    font-weight:bolder;
+    color: rgba(0, 0, 0, 0.0.94);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-content .main-text2{
+    font-size: 70px;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.94);
+}
+.main-content{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.main-para{
+    font-size: 20px;
+    color: white;
+}
+.main-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.main-btns span{
+    margin: 8px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    padding: 25px;
+    border-radius: 8px;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.main-btns span:hover{
+    background-color: rgba(238, 168, 39, 0.936);
+    color: white;
+}
+
+.footer{
+    background-color: rgba(113, 113, 113, 0.613);
+    padding: 8px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.77);
+}
+.footer-content{
+    display: flex;
+    align-items:center;
+}
+
+.footer-content ul li{
+    list-style-type: none;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.footer-content ul li:hover{
+    font-size: 20px;
+}
